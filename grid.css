@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        'header header header'
+        'interests content hobbies'
+        'cv content movies'
+        'skills education movies'
+        'footer footer footer';
+    grid-template-columns: 1fr 3fr 1fr;
+
+    ;
+}
+
+header,footer,article,aside {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}
+
+.education {
+    grid-area: education;
+}
+
+.hobbies {
+    grid-area: hobbies;
+}
+
+.interests {
+    grid-area: interests;
+}
+
+.cv {
+    grid-area: cv;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.movies {
+    grid-area: movies;
+}
+
+footer {
+    grid-area: footer;
+}
