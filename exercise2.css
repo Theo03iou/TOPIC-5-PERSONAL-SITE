@@ -1,0 +1,190 @@
+/* START OF HEADER */
+
+header {
+    margin: 0.5rem;
+    height: 6rem;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header p {
+    margin-left: 1rem;
+}
+
+.navbar li {
+    display: inline-flex;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/* END OF HEADER */
+
+/* START OF INTERESTS */
+
+.interests {
+    background-color: rgba(255, 166, 0, 0.341);
+    color: rgb(0, 97, 0);
+    max-width: 18rem;
+    max-height: 13rem;
+    margin: 1rem 0.5rem;
+}
+
+.interests ul {
+    padding: .8rem;
+    list-style: none;
+}
+
+/* END OF INTERESTS */
+
+/* START OF CV */
+
+.cv {
+    max-width: 18rem;
+    background-color: rgb(249, 245, 245);
+    margin: 1rem 0.5rem;
+}
+
+.cv ul {
+    padding: .8rem;
+    list-style: none;
+    color: rgb(0, 97, 0);
+}
+
+/* END OF CV */
+
+/* START OF SKILLS */
+
+.skillsSection {
+    background-color: rgb(249, 245, 245);
+    max-width: 18rem;
+    margin: 1rem 0.5rem;
+    padding: .8rem 0;
+}
+
+.skillsSection .skills {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.skills h3 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: .5rem;
+    font-weight: bolder;
+}
+
+.skills li {
+    list-style: none;
+    /* text-align: center; */
+    padding: 1.3rem 0rem;
+}
+
+.skills img{
+    float: left;
+    display: flex;
+    margin: .8rem 0rem 0rem 1rem;
+    /* display: inline;
+    align-items: center; */
+}
+
+/* END OF SKILLS */
+
+/* START OF FOOTER */
+
+.footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    max-width: 18rem;
+    margin: .5rem;
+}
+
+/*  END OF FOOTER */
+
+.intro {
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.intro img {
+    width: 25rem;
+    float: right;
+}
+
+.wrapper {
+    display: grid;  
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 1rem;
+    /* columns: 1; */
+
+}
+
+/* START OF HOBBIES */
+
+.hobbiesSection {
+    background-color: rgb(249, 245, 245);
+    max-width: 18rem;
+    margin: 1rem 0.5rem;
+    padding: .8rem 0;
+    max-height: 11rem;
+}
+
+.hobbiesSection .hobbies {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.hobbies h3 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: .5rem;
+    font-weight: bolder;
+}
+
+.hobbies li {
+    list-style: none;
+    padding: 4%;   
+}
+
+/* END OF HOBBIES */
+
+/* START OF MOVIES */
+
+.movieSection {
+    background-color: rgb(249, 245, 245);
+    max-width: 18rem;
+    margin: 1rem 0.5rem;
+    padding: .8rem 0;
+    max-height: 16.rem;
+}
+
+.movieSection .movies {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+
+.movies h3 {
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: .5rem;
+    font-weight: bolder;
+}
+
+.movies li {
+    list-style: none;
+    padding: 4%;  
+}
