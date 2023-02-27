@@ -1,0 +1,161 @@
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: white;
+        display: grid;
+        grid-template-areas: 
+        'header'
+        'content'
+        'education'
+        'cv'
+        'interests'
+        'skills'
+        'hobbies'
+        'movies'
+        'footer';
+        /* grid-template-rows: repeat(1, 1fr); */
+        grid-template-columns: none;
+        gap: 1rem;
+        max-width:fit-content;
+        margin: 0.5rem;
+
+    }    
+
+    /* START OF HEADER */
+
+    header {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        /* margin: 0; */
+    }
+
+    header p {
+        padding: 1rem;
+    }
+
+    .navbar li {
+        margin: 0rem;
+    }
+
+    /* END OF HEADER */
+
+
+    /* START OF INTRO */
+    
+    .intro {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .intro img {
+        float:none;
+         width: 100%;
+        /* margin: auto; */
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    /* END OF INTRO */
+
+
+    /* START OF EDUCATION */
+    
+    .education {
+        margin: 1rem;
+    }
+
+    /* END OF EDUCATION */
+
+
+    /* START OF CV */
+
+    .cv {
+        max-width: none;
+        font-size: 1.5rem;
+    }
+
+    /* END OF CV */
+
+
+    /* START OF INTERESTS */
+
+    .interests {
+        max-width: none;
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
+    }
+
+    /* END OF INTERESTS */
+
+
+    /* START OF SKILLS */
+
+    .skillsSection {
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: none;
+    }
+
+    .skillsSection .skills {
+        width: 95%;
+    }
+
+    .skillsWrapper {
+        grid-template-columns: 1fr 6fr;
+    }
+
+    /* END OF SKILLS */
+
+
+    /* START OF HOBBIES */
+
+    .hobbiesSection {
+        margin: 0 0.5rem;
+        max-width: none;
+        max-height: none;
+    }
+
+    .hobbiesSection .hobbies {
+        width: 95%;
+    }
+
+    .hobbiesSection li {
+        padding: 2%;
+    }
+
+    /* END OF HOBBIES */
+
+
+    /* START OF MOVIES */
+
+    .movieSection {
+        margin: 0 0.5rem;
+        max-width: none;
+        max-height: none;
+    }
+
+    .movieSection .movies {
+        width: 95%;
+    }
+
+    .movies li {
+        padding: 2%;
+    }
+
+    /* END OF MOVIES */
+
+
+    /* START OF FOOTER */
+
+    .footer {
+        max-width: none;
+        width: 98%;
+    }
+
+}
