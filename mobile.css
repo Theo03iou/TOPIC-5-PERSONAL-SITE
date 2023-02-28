@@ -27,7 +27,7 @@
         height: 100%;
         width: 100%;
         text-align: center;
-        /* margin: 0; */
+        margin: 0 0 0.5rem 0;
     }
 
     header p {
@@ -35,7 +35,9 @@
     }
 
     .navbar li {
+        display: block;
         margin: 0rem;
+        padding: 1%;
     }
 
     /* END OF HEADER */
@@ -46,7 +48,7 @@
     .intro {
         display: block;
         width: 90%;
-        margin: auto;
+        margin: 1rem auto;
     }
 
     .intro img {
